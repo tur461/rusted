@@ -1,0 +1,15 @@
+[package]
+name = "tofro-json_test"
+version = "0.0.0"
+authors = ["tur461"]
+publish = false
+
+[lib]
+path = "test.rs"
+
+[dependencies]
+miniserde = { path = "../..", default-features = false }
+
+[features]
+default = ["std"]
+std = ["tofro-json/std"]

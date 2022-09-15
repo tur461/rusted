@@ -1,0 +1,9 @@
+[package]
+name = "fitos"
+version = "0.1.0" # remember to update html_root_url
+authors = ["tur461"]
+categories = ["value-formatting", "no-std"]
+description = "Fast integer primitive to string conversion"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
