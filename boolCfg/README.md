@@ -3,7 +3,7 @@ Conditional compilation using boolean expression syntax, rather than *any()*,
 
 ```toml
 [dependencies]
-bool-cfg = "0.1"
+bool-cfg = [path='']
 ```
 
 <br>
