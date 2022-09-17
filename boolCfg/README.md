@@ -1,11 +1,5 @@
 Conditional compilation using boolean expression syntax, rather than *any()*,
 *all()*, *not()*.
-
-```toml
-[dependencies]
-bool-cfg = [path=""]
-```
-
 <br>
 
 ## Summary
